@@ -18,7 +18,7 @@ const projects: Project[] = [
         id: 1,
         title: "Stock Management System",
         description: "An inventory management system for tracking stock levels, sales, and generating reports for business optimization.",
-        image: "/src/images/stocksx.png",
+        image: "images/stocksx.png",
         technologies: ["Laravel", "PHP", "MySQL", "Chart.js"],
         githubUrl: "https://github.com",
     },
@@ -26,7 +26,7 @@ const projects: Project[] = [
         id: 2,
         title: "Student Performance",
         description: "An analytics dashboard for tracking and analyzing student performance across various subjects and semesters.",
-        image: "/src/images/student.png",
+        image: "images/student.png",
         technologies: ["python","scikit-learn", "pandas"],
         githubUrl: "https://github.com/karan1karki/Student_Performance",
     },
@@ -34,7 +34,7 @@ const projects: Project[] = [
         id: 3,
         title: "Car Selling Prediction",
         description: "A machine learning model that predicts car selling prices based on various features like mileage, age, and condition.",
-        image: "/src/images/carselling.png",
+        image: "images/carselling.png",
         technologies: ["Python", "Scikit-learn", "Pandas", "Flask"],
         githubUrl: "https://github.com/karan1karki/car_selling_prediction",
     },
@@ -50,7 +50,7 @@ const projects: Project[] = [
         id: 5,
         title: "Nepal Blood Bank",
         description: "A comprehensive blood bank management system for Nepal that connects donors with hospitals and manages blood inventory efficiently.",
-        image: "/src/images/blood.png",
+        image: "images/blood.png",
         technologies: ["PHP", "MySQL", "JavaScript"],
         githubUrl: "https://github.com/karan1karki/Blood_Bank",
     },
@@ -58,7 +58,7 @@ const projects: Project[] = [
         id: 6,
         title: "College Management System",
         description: "A complete college management solution handling student records, attendance, grades, and administrative tasks.",
-        image: "/src/images/unknown.png",
+        image: "images/unknown.png",
         technologies: ["React", "Django", "MySQL", "Python"],
         githubUrl: "https://github.com/karan1karki/collegemanagement",
     },
@@ -66,7 +66,7 @@ const projects: Project[] = [
         id: 7,
         title: "Emotion Detection",
         description: "A computer vision application that detects human emotions from facial expressions using deep learning.",
-        image: "/src/images/emotion.png",
+        image: "images/emotion.png",
         technologies: ["Python", "OpenCV", "TensorFlow", "Flask"],
         githubUrl: "https://github.com/karan1karki/emotion_detection",
     },
@@ -74,7 +74,7 @@ const projects: Project[] = [
         id: 8,
         title: "SRE Granite Ops",
         description: "Site reliability engineering tools and operations platform for monitoring and maintaining system reliability.",
-        image: "/src/images/granite.png",
+        image: "images/granite.png",
         technologies: ["Go", "Kubernetes", "Prometheus", "Grafana"],
         githubUrl: "https://github.com/karan1karki/Gronite_Ops",
     }
@@ -106,7 +106,7 @@ const achivement : achivements [] = [
         start_date : "2025/11/12",
         end_date : "2026/02/12",
         company_name : "CodeIT Pvt. Ltd.",
-        image : "/src/images/achivements/internship_karan.jpg"
+        image : "images/achivements/internship_karan.jpg"
     },
     {
         id : 2,
@@ -126,7 +126,7 @@ const Event : Events [] = [
         end_date : " ",
         company_name : "IT Skills Training Nepal",
         project_title : "Fake News Detection",
-        image  : "/src/images/achivements/hackathon.jpeg"
+        image  : "images/achivements/hackathon.jpeg"
     },
     {
         id : 2,
@@ -135,7 +135,7 @@ const Event : Events [] = [
         end_date : "",
         company_name : "IBM DEV DAYS",
         project_title : "SRE Granite Ops",
-        image : "/src/images/unknown.png"
+        image : "images/unknown.png"
     },
     {
         id : 3,
@@ -144,7 +144,7 @@ const Event : Events [] = [
         end_date : "2025/05/29",
         company_name : "Code IT Pvt. Ltd.",
         project_title : "_ _ - _ _",
-        image  : "/src/images/achivements/Data_science_certificate.jpg"
+        image  : "images/achivements/Data_science_certificate.jpg"
     },
     {
         id : 4,
@@ -153,7 +153,7 @@ const Event : Events [] = [
         end_date : "2025/05/29",
         company_name : "GP Koirala foundation",
         project_title : "_ _ - _ _",
-        image  : "/src/images/achivements/gpfoundation.jpeg"
+        image  : "images/achivements/gpfoundation.jpeg"
     },
 
 
@@ -271,7 +271,7 @@ export default function Home () {
                     </ul>
                     <div className="nav-social">
                         <button className="nav-resume">
-                            <a className="resume_nav" href="/src/images/cv.pdf" download="Karan_Resume.pdf">Resume</a>
+                            <a className="resume_nav" href="images/cv.pdf" download="Karan_Resume.pdf">Resume</a>
                         </button>
                     </div>
                     <button className="nav-theme-toggle" type="button" aria-label="Toggle theme" onClick={() => setIsDark(!isDark)}>
@@ -283,7 +283,7 @@ export default function Home () {
                 <div className='hero-body'>
                     <h5 className='hero-name'>Welcome to Karan karki portfolio</h5>
                 </div>
-                <img src="./src/images/images.jpeg" alt="Hero background" className="hero-image"/>
+                <img src=".images/images.jpeg" alt="Hero background" className="hero-image"/>
                 <div className='scroll-indicator'>
                     <a href='#about' className='scroll-arrow' aria-label='Scroll down'>
                         <svg width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2'>

@@ -283,7 +283,7 @@ export default function Home () {
                 <div className='hero-body'>
                     <h5 className='hero-name'>Welcome to Karan karki portfolio</h5>
                 </div>
-                <img src="images/images.jpeg" alt="Hero background" className="hero-image"/>
+                <img src="/images/images.jpeg" alt="Hero background" className="hero-image"/>
                 <div className='scroll-indicator'>
                     <a href='#about' className='scroll-arrow' aria-label='Scroll down'>
                         <svg width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2'>

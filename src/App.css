@@ -18,7 +18,7 @@
 }
 @media (max-width < 600 ) {
   .nav-menu{
-    display :none;
+    display : flex;
   }
   . nav-items {
     display : flex;

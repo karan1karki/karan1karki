@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import { CiDark , CiLight } from "react-icons/ci"
+import { CiDark , CiLight, CiMenuBurger } from "react-icons/ci"
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa"
 import { FaStar, FaTrophy, FaAward, FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa"
 import React from 'react'
@@ -250,6 +250,9 @@ export default function Home () {
             <div>
                 <nav className="nav-items" aria-label="Primary navigation">
                     <h1 className='hero-name'>Karan's Portfolio</h1>
+                    <div>
+                        <CiMenuBurger className= "nav-menu"/>
+                    </div>
                     <ul className="nav-list">
                         <li><a href="/">Home</a></li>
                         <li><a href="#about">About</a></li>

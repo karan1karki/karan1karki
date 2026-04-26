@@ -271,7 +271,7 @@ export default function Home () {
                     </ul>
                     <div className="nav-social">
                         <button className="nav-resume">
-                            <a className="resume_nav" href="/images/cv.pdf" download="Karan_Resume.pdf">Resume</a>
+                            <a className="resume_nav" href="/images/cv.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
                         </button>
                     </div>
                     <button className="nav-theme-toggle" type="button" aria-label="Toggle theme" onClick={() => setIsDark(!isDark)}>

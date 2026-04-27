@@ -21,11 +21,7 @@
     display : flex;
   }
   . nav-items {
-    display : flex;
-    flex-direction : column;
-    font-size : small ;
-    padding : 5px;
-    margin : 0px;
+    display : none;
 }
 .nav-list {
   display: flex;

@@ -1378,3 +1378,14 @@ section h1 {
 .resume_nav {
   text-decoration: none;
 }
+.nav-menu {
+  display : none;
+}
+@media (max-width : 7010px & min-width : 400px) {
+   .nav-menu {
+     display : flex;
+   }
+  .nav-items {
+    display :none;
+  }
+}

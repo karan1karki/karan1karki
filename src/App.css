@@ -1381,7 +1381,7 @@ section h1 {
 .nav-menu {
   display : none;
 }
-@media (max-width : 7010px & min-width : 400px) {
+@media (max-width : 700px) and (min-width : 400px) {
    .nav-menu {
      display : flex;
    }

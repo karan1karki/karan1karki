@@ -1384,15 +1384,15 @@ section h1 {
 @media (max-width : 1040px) and (min-width : 400px) {
    .nav-menu {
      display : flex;
+     justify-content : flex-end;
    }
   .hero-name {
     display :flex;
   }
   .nav-list {
     display :none;
-  /* }
-  .nav-list{
-    display: flex;
-    flex-direction :column;
-  } */
+  }
+  .nav-theme-toggle , .nav-social {
+    display : none;
+  }
 }

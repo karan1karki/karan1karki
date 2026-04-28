@@ -242,6 +242,7 @@ export default function Home () {
     const [showAllProjects, setShowAllProjects] = useState(false);
     const [selectAchivement, setselectAchivement] = useState<achivements |null>(null);
     const [selectedEvent, setSelectedEvent] = useState <Events | null > (null);
+    const [handleMenuMobile, sethandleMenuMobile] = useState(false);
 
     const displayedProjects = showAllProjects ? projects : projects.slice(0, 6);
 
@@ -251,8 +252,24 @@ export default function Home () {
                 <nav className="nav-items" aria-label="Primary navigation">
                     <h1 className='hero-name'>Karan's Portfolio</h1>
                     <div>
-                        <CiMenuBurger className= "nav-menu"/>
+                        <CiMenuBurger className= "nav-menu" onclick={handleMenuMobile}/>
                     </div>
+                    {sethandleMenuMobile && (
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Project</li>
+                            <li>Skills</li>
+                            <li>Achivements</li>
+                            <li>Resume</li>
+                            <li>
+                                <button className="nav-theme-toggle" type="button" aria-label="Toggle theme" onClick={() => setIsDark(!isDark)}>
+                                    {isDark ? <CiLight /> : <CiDark />}
+                                </button>
+                            </li>
+                        </ul>
+                        
+                    )}
                     <ul className="nav-list">
                         <li><a href="/">Home</a></li>
                         <li><a href="#about">About</a></li>

@@ -260,7 +260,7 @@ export default function Home () {
                             <li className="mobile_about"><a href="#about">About</a></li>
                             <li className="mobile_project"><a href="#projects">Project</a></li>
                             <li className="mobile_skills"><a href="#skills">Skills</a></li>
-                            <li className="mobile_achivements"><a href="#achivements">Achivements</a></li>
+                            <li className="mobile_achivements"><a href="#achievements">Achivements</a></li>
                             <li className="mobile_resume"><a href="/images/cv.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
                             <div>
                                 <button className="nav-theme-toggle" type="button" aria-label="Toggle theme" onClick={() => setIsDark(!isDark)}>

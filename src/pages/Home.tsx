@@ -603,7 +603,7 @@ export default function Home () {
                                 </div>
                                 <div className='contact-details'>
                                     <h3>Phone</h3>
-                                    <a href='tel:+977-1234567890'>+977 9863022109</a>
+                                    <a href='tel:+977-9863022109'>+977 9863022109</a>
                                 </div>
                             </div>
 

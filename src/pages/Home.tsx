@@ -193,6 +193,8 @@ const skills: Skill[] = [
     { id: 20, name: 'TensorFlow', category: 'AI/ML', level: 75 }
 ]
 export default function Home () {
+    const [handleMenuMobile, sethandleMenuMobile] = useState(false);
+    
     const menuRef = useRef<HTMLUListElement>(null);
     useEffect(() => {
         const closeMenu = () => {
@@ -269,7 +271,6 @@ export default function Home () {
     const [showAllProjects, setShowAllProjects] = useState(false);
     const [selectAchivement, setselectAchivement] = useState<achivements |null>(null);
     const [selectedEvent, setSelectedEvent] = useState <Events | null > (null);
-    const [handleMenuMobile, sethandleMenuMobile] = useState(false);
 
     const displayedProjects = showAllProjects ? projects : projects.slice(0, 6);
 

@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa"
 import { FaStar, FaTrophy, FaAward, FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa"
 import React from 'react'
 import { useState } from 'react'
+import {IoClose } from 'react-icons/io5'
 interface Project {
     id: number;
     title: string;

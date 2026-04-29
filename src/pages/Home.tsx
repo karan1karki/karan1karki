@@ -255,20 +255,27 @@ export default function Home () {
                         <CiMenuBurger className= "nav-menu" onClick={() => sethandleMenuMobile(true)}/>
                     </div>
                     {handleMenuMobile && (
-                        <ul className= "mobile-menu">
-                            <li className="mobile_home"><a href="/">Home</a></li>
-                            <li className="mobile_about"><a href="#about">About</a></li>
-                            <li className="mobile_project"><a href="#projects">Project</a></li>
-                            <li className="mobile_skills"><a href="#skills">Skills</a></li>
-                            <li className="mobile_achivements"><a href="#achievements">Achivements</a></li>
-                            <li className="mobile_resume"><a href="/images/cv.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
-                            <div>
-                                <button className="nav-theme-toggle" type="button" aria-label="Toggle theme" onClick={() => setIsDark(!isDark)}>
-                                    {isDark ? <CiLight /> : <CiDark />}
-                                </button>
-                            </div>
-                        </ul>
-                        
+                        <div className="mobile-menu-overlay">
+                            <ul className="mobile-menu">
+                                {/* Close Button */}
+                                <li className="close-menu">
+                                    <IoClose onClick={() => sethandleMenuMobile(false)} />
+                                </li>
+                                
+                                <li className="mobile_home"><a href="/" onClick={() => sethandleMenuMobile(false)}>Home</a></li>
+                                <li className="mobile_about"><a href="#about" onClick={() => sethandleMenuMobile(false)}>About</a></li>
+                                <li className="mobile_project"><a href="#projects" onClick={() => sethandleMenuMobile(false)}>Project</a></li>
+                                <li className="mobile_skills"><a href="#skills" onClick={() => sethandleMenuMobile(false)}>Skills</a></li>
+                                <li className="mobile_achivements"><a href="#achievements" onClick={() => sethandleMenuMobile(false)}>Achievements</a></li>
+                                <li className="mobile_resume"><a href="/images/cv.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+                                
+                                 <li className="theme-toggle-li">
+                                    <button className="nav-theme-toggle" type="button" onClick={() => setIsDark(!isDark)}>
+                                        {isDark ? <CiLight /> : <CiDark />}
+                                    </button>
+                                </li> 
+                            </ul>
+                        </div>
                     )}
                     <ul className="nav-list">
                         <li><a href="/">Home</a></li>

@@ -1406,9 +1406,9 @@ section h1 {
         z-index: 9998;
         display: flex;
         justify-content: flex-end;
-    }
-
-    .mobile-menu {
+      }
+      
+      .mobile-menu {
         width: 65%;
         height: 100%;
         list-style: none;
@@ -1423,6 +1423,7 @@ section h1 {
     }
  
     .mobile-menu li a{
+        color: black;
         text-decoration: none;
         font-size: 1.25rem;
         font-weight: 500;

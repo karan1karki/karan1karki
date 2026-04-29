@@ -1402,10 +1402,10 @@ section h1 {
         top: 0;
         right: 0;
         width: 40%;
-        height: 50vh;
-        backdrop-filter: blur(60px); 
-        background-color: White;
-        opacity : 1;
+        height: 60vh;
+        /* backdrop-filter: blur(60px);  */
+        /* background-color: White; */
+        /* opacity : 1; */
         z-index: 9998;
         display: flex;
         justify-content: flex-end;
@@ -1418,6 +1418,7 @@ section h1 {
         padding: 1.5rem;
         display: flex;
         flex-direction: column;
+        background-color : white ;
         border-radius: 30px;
         gap: 1.5rem;
         box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.3);
